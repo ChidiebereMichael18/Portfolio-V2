@@ -45,7 +45,7 @@ function About() {
                 </a>
             </div>
           </div>
-          <div className="mt-18"><img src={assets.avatar} alt="" className="w-100 h-100 rounded-2xl" /></div>
+          <div className="mt-18 "><img src={assets.avatar} alt="" className="w-100 h-100 rounded-2xl"/></div>
       </div>
     </div>
   );
