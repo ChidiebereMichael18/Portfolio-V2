@@ -13,12 +13,14 @@ function Projects() {
       </div>
       <div className="md:mx-20 mx-4 mt-15 font-lato ">
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 grid-cols-1">
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-50 border hover:opacity-50 hover:shadow-xl shadow-textGreen/15">
-            <h1 className="text-white text-2xl text-center pb-4">Text2Speech</h1>
-            <p className="text-white text-xl">Converts the text input to an audio output</p>
-            <h3 className="text-white text-xl pt-4  text-center">HTML+CSS+JS</h3>
-            <h3 className="text-white text-xl pt-4 pb-2">Status:<span className="text-textGreen">completed</span></h3>
-            <a href="https://chieberemichael.github.io/mike.github.io/" target="_blank" className="text-red-600 align-center">Live Preview</a>
+          <div className="group cursor-pointer">
+            <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 group-hover:border-b-amber-50 border group-hover:opacity-50 group-hover:shadow-xl shadow-textGreen/15 transition-all duration-300">
+              <h1 className="text-white text-2xl text-center pb-4">Text2Speech</h1>
+              <p className="text-white text-xl">Converts the text input to an audio output</p>
+              <h3 className="text-white text-xl pt-4  text-center">HTML+CSS+JS</h3>
+              <h3 className="text-white text-xl pt-4 pb-2">Status:<span className="text-textGreen">completed</span></h3>
+              <a href="https://chieberemichael.github.io/mike.github.io/" target="_blank" className="text-red-600 align-center">Live Preview</a>
+            </div>
           </div>
           <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-50 border hover:opacity-50 hover:shadow-xl shadow-textGreen/15">
             <h1 className="text-white text-2xl text-center pb-4">MovieFlix</h1>
