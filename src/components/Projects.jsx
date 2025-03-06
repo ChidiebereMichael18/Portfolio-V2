@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <div>
-      <div className="md:mx-20 mx-10 mt-20 font-lato">
+      <div className="md:mx-20 mx-4 mt-20 font-lato">
         <h2 className="text-white xl:text-left text-4xl sm:text-4xl md:text-6xl font-600">
           Projects<span className="animate-ping">👨‍🍳</span>
         </h2>
@@ -11,7 +11,7 @@ function Projects() {
           some of my fun and real projects I've worked on...brinnnnng mooooore!
         </p>
       </div>
-      <div className="md:mx-20 mx-10 mt-15 font-lato ">
+      <div className="md:mx-20 mx-4 mt-15 font-lato ">
         <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 grid-cols-1">
           <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-50 border hover:opacity-50 hover:shadow-xl shadow-textGreen/15">
             <h1 className="text-white text-2xl text-center pb-4">Text2Speech</h1>
