@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div>
       <header className="fixed z-50 top-0 bg-[#061417] w-full px-4 md:px-15 ">
-        <nav className="flex items-center justify-between py-4 font-lato">
+        <nav className="flex items-center justify-between py-4 font-montserrat">
           <div>
             <h2 className="text-xl md:text-2xl font-extrabold text-white">
               MikeBytes🔥

@@ -26,7 +26,7 @@ const CurrentTime = () => {
   return (
     <div className="">
       {/* <div className="text-xl font-medium text-black">Current Time</div> */}
-      <div className="text-lg font-bold text-white">{timeString}</div>
+      <div className="text-lg font-bold font-montserrat text-white">{timeString}</div>
     </div>
   );
 };

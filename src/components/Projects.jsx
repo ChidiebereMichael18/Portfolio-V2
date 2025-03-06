@@ -3,7 +3,7 @@ import { FaShare, FaShareAlt, FaShareSquare } from "react-icons/fa";
 function Projects() {
   return (
     <div>
-      <div className="md:mx-20 mx-4 mt-20 font-lato">
+      <div className="md:mx-20 mx-4 mt-20 font-montserrat">
         <h2 className="text-white xl:text-left text-4xl sm:text-4xl md:text-6xl font-600">
           Projects<span className="animate-ping">👨‍🍳</span>
         </h2>
@@ -12,7 +12,7 @@ function Projects() {
         </p>
       </div>
       <div className="md:mx-20 mx-4 mt-15 font-lato ">
-        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 grid-cols-1">
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 font-montserrat grid-cols-1">
           <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-100  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
             <h1 className="text-white text-2xl text-center pb-4">
               Text2Speech
@@ -24,7 +24,7 @@ function Projects() {
               Converts the text input to an audio output
             </p>
             <h3 className="text-white text-xl pt-4 pb-2">
-              Status:<span className="text-textGreen">completed</span>
+              status:<span className="text-textGreen">completed</span>
             </h3>
             <a
               href="https://chieberemichael.github.io/mike.github.io/"
@@ -43,7 +43,7 @@ function Projects() {
               A movie showing website
             </p>
             <h3 className="text-white text-xl pt-4 pb-2">
-              Status:<span className="text-textGreen">completed</span>
+              status:<span className="text-textGreen">completed</span>
             </h3>
             <a href="https://movieflix-virid.vercel.app/">
               <FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/>
@@ -61,7 +61,7 @@ function Projects() {
               classmates
             </p>
             <h3 className="text-white text-xl pt-4 pb-2">
-              Status:<span className="text-textGreen">completed</span>
+              status:<span className="text-textGreen">completed</span>
             </h3>
             <a
               href="https://github.com/ChiebereMichael/Netflix-Clone"
@@ -78,7 +78,7 @@ function Projects() {
               track real-time prices
             </p>
             <h3 className="text-white text-xl pt-4 pb-2">
-              Status:<span className="text-amber-500">paused</span>
+              status:<span className="text-amber-500">paused</span>
             </h3>
             <a
               href="https://github.com/ChiebereMichael/Mike-Pay"
@@ -96,7 +96,7 @@ function Projects() {
               Welcome to BrainStorm , Where Ideas Find Teams
             </p>
             <h3 className="text-white text-xl pt-4 pb-2">
-              Status:<span className="text-blue-700">in progress</span>
+              status:<span className="text-blue-700">in progress</span>
             </h3>
             <a
               href="https://brainstorm-v1.vercel.app/"

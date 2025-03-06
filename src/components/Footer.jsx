@@ -7,7 +7,7 @@ function Footer() {
     <div>
       <div className="w-full  border-b-amber-50 border mt-10 "></div>
       <div className="flex flex-col justify-center md:flex-row md:justify-between xl:justify-between text-white mx-10 mt-10 pb-10">
-        <div className="text-sm mb-3 text-center md:text-left xl:text-left">
+        <div className="text-sm mb-3 font-montserrat text-center md:text-left xl:text-left">
           <p className="text-lg">&copy;Michael 2023-2025.</p>
           <p className="text-textGreen text-lg">Powered by MikeBytes Technologies</p>
           <CurrentTime/>

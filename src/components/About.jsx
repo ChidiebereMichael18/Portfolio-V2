@@ -9,22 +9,22 @@ function About() {
       <div className="flex md:flex-col xl:flex-row flex-col justify-between">
           <div className="text-white mt-10 ">
             <div>
-              <h1 className="text-white xl:text-left text-4xl mt-10 sm:text-4xl md:text-7xl font-700">
+              <h1 className="font-montserrat text-white xl:text-left text-4xl mt-10 sm:text-4xl md:text-7xl font-700 ">
                 Creative Frontend <br />
                 Developer.
               </h1>
-              <p className="pt-10 gradientText text-[20px] text-[#FFFFFF99]">
+              <p className=" font-montserrat pt-10 gradientText text-[20px] text-[#FFFFFF99]">
                 I like to craft solid and scalable frontend products with great user
                 experiences.
               </p>
             </div>
             <div className="flex flex-col md:flex-row space-x-8 space-y-8 text-white mt-10">
-              <p className=" w-90 text-base text-[#FFFFFF99] ">
+              <p className=" w-90 text-base text-[#FFFFFF99] font-montserrat">
                 Hey there! I'm Chidiebere Michael, a frontend web and mobile
                 developer with 2 years of experience. with passion for building sleek, efficient, and
                 user-friendly applications.
               </p>
-              <p className="  w-90 text-[#FFFFFF99]">
+              <p className="  w-90 text-[#FFFFFF99] font-montserrat">
               Highly skilled at progressive enhancement, 
               design systems & UI Engineering - 
               performance and scalability are top objectives on my radar.
