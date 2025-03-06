@@ -5,7 +5,7 @@ import { FaInstagram, FaTiktok,  FaTwitter,  FaWhatsapp } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="md:mx-20 mx-10 mt-10 font-lato">
+    <div className="md:mx-20 mx-4 mt-10 font-lato">
       <div className="flex md:flex-col xl:flex-row flex-col justify-between">
           <div className="text-white mt-10 ">
             <div>
