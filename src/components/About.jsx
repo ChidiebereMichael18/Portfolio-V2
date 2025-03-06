@@ -19,12 +19,12 @@ function About() {
               </p>
             </div>
             <div className="flex flex-col md:flex-row space-x-8 space-y-8 text-white mt-10">
-              <p className=" w-80 text-base text-[#FFFFFF99] ">
+              <p className=" w-90 text-base text-[#FFFFFF99] ">
                 Hey there! I'm Chidiebere Michael, a frontend web and mobile
                 developer with 2 years of experience. with passion for building sleek, efficient, and
                 user-friendly applications.
               </p>
-              <p className="  w-80 text-[#FFFFFF99]">
+              <p className="  w-90 text-[#FFFFFF99]">
               Highly skilled at progressive enhancement, 
               design systems & UI Engineering - 
               performance and scalability are top objectives on my radar.
@@ -45,7 +45,7 @@ function About() {
                 </a>
             </div>
           </div>
-          <img src={assets.avatar} alt="" className="mt-6 w-100 " />
+          <div className="mt-18"><img src={assets.avatar} alt="" className="w-100 h-100 rounded-2xl" /></div>
       </div>
     </div>
   );
