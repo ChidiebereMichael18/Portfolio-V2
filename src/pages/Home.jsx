@@ -8,7 +8,7 @@ import Projects from "../components/Projects";
 
 function Home() {
   return (
-    <div className=" bg-black min-w-full max-w-full">
+    <div className=" bg-black min-w-full w-full max-w-full">
       <Navbar />
       <About/>
       <Skills/>
