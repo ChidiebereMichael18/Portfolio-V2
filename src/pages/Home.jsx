@@ -8,9 +8,11 @@ function Home() {
     <div className="bg-[#05020b] h-full">
       <div className="max-w-screen-md mx-auto px-5  font-montserrat">
         <div className=" flex flex-col gap-y-1 ">
-          <div className="flex justify-between mt-8">
+          <div className="flex justify-between mt-6">
             <h1 className="text-xl  text-white">MikeBytes</h1>
-            <FaGithub size={28} color="fff" className="hover:animate-bounce" />
+            <a href="https://github.com/ChiebereMichael/">
+              <FaGithub size={28} color="fff" className="hover:animate-bounce" />
+            </a>
           </div>
           {/* about */}
           <div className="text-white mt-6">
@@ -26,7 +28,7 @@ function Home() {
             </p>
             <p>
               You'll mostly find me working within the Typescript/JavaScript
-              ecosystem, but I'm also interested in other languages python.
+              ecosystem, but I'm also interested in other languages like python.
             </p>
             <p className="mt-4">
               I'm currently working on a new project -{" "}
@@ -36,6 +38,7 @@ function Home() {
         </div>
         <div className="mt-8">
           <h2 className="font-extrabold text-2xl font-serif text-white">Projects</h2>
+          <p className="text-base text-gray-400 ">Some of my personal projects i have worked on.</p>
         </div>
         {/* project titles */}
         <div className="mt-8">
@@ -52,7 +55,7 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-6">
           <h2 className="text-white text-xl  mt-1">MovieFlix</h2>
           <p className="text-base text-gray-400 pt-1">
             A movie showing website
@@ -93,6 +96,20 @@ function Home() {
           </div>
         </div>
         <div className="mt-6">
+          <h2 className="text-white text-xl  mt-1">Free Durk</h2>
+          <p className="text-base text-gray-400 pt-1">
+           Just cause i love lil durk.
+          </p>
+          <div className="flex gap-x-4 mt-2">
+            <a href="https://brainstorm-v1.vercel.app/">
+              <FaShareSquare size={20} className="text-white  hover:animate-pulse"/>
+            </a>
+            <a href="">
+              <FaGithub size={20} color="#fff" className="hover:animate-pulse"/>
+            </a>
+          </div>
+        </div>
+        <div className="mt-6">
           <h2 className="text-white text-xl mt-1">Netflix Clone</h2>
           <p className="text-base text-gray-400 pt-1">
           Cloned NETFLIX for a school project defense , collaborated with classmates
@@ -103,6 +120,8 @@ function Home() {
           </a>    
           </div>
         </div>
+        {/* footer */}
+        <div className="pt-10"></div>
       </div>
     </div>
   );
