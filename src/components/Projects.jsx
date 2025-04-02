@@ -12,7 +12,7 @@ function Projects() {
         </p>
       </div>
       <div className="md:mx-20 mx-4 mt-15 font-montserrat ">
-        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 font-montserrat grid-cols-1">
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 font-montserrat grid-cols-2">
           <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-100  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
             <h1 className="text-white text-2xl text-center pb-4">
               Text2Speech
