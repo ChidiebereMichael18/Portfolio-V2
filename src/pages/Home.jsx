@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaShareSquare } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaMailBulk, FaShareSquare } from "react-icons/fa";
 // import Footer from "../components/Footer";
 // import CurrentTime from "../components/CurrentTime";
 import { FaXTwitter, FaInstagram, FaGoogle } from "react-icons/fa6";
@@ -23,7 +23,7 @@ function Home() {
           <div className="text-white mt-6">
             <p>
               Hello! I'm Chidiebere Michael, a frontend web and mobile developer
-              with 2 years of experience. with passion for building sleek,
+              with over 2 years of experience. with passion for building sleek,
               efficient, and user-friendly applications.
             </p>
             <p className="my-2">
@@ -35,6 +35,12 @@ function Home() {
               You'll mostly find me working within the Typescript/JavaScript
               ecosystem, but I'm also interested in other languages like python.
             </p>
+            <p className="my-2">
+              I love turning ideas into real, working projects, and I’m always
+              up for a challenge—whether its a tricky bug, or
+              something unexpected. If you'd like to talk, don't hesitate to
+              reach out. Let’s build something amazing together! 🚀
+            </p>
             <p className="mt-4">
               I'm currently working on a new project -{" "}
               <span className="text-blue-600">BrainStorm</span>
@@ -43,7 +49,7 @@ function Home() {
         </div>
         <div className="mt-8">
           <h2 className="font-extrabold text-2xl font-serif text-white">
-            Projects 
+            Projects
           </h2>
           <p className="text-base text-gray-400 ">
             Some of my personal projects i have worked on.
@@ -51,7 +57,9 @@ function Home() {
         </div>
         {/* project titles */}
         <div className="mt-8">
-          <h2 className="text-white text-xl mt-1">Text 2 Speech <span className="text-gray-300 text-sm">(web)</span></h2>
+          <h2 className="text-white text-xl mt-1">
+            Text 2 Speech <span className="text-gray-300 text-sm">(web)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             Converts the text input to an audio output
           </p>
@@ -72,7 +80,9 @@ function Home() {
           </div>
         </div>
         <div className="mt-6">
-          <h2 className="text-white text-xl  mt-1">MovieFlix <span className="text-gray-300 text-sm">(web)</span></h2>
+          <h2 className="text-white text-xl  mt-1">
+            MovieFlix <span className="text-gray-300 text-sm">(web)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             A movie showing website
           </p>
@@ -93,7 +103,9 @@ function Home() {
           </div>
         </div>
         <div className="mt-6">
-          <h2 className="text-white text-xl  mt-1">MikePay <span className="text-gray-300 text-sm">(app)</span></h2>
+          <h2 className="text-white text-xl  mt-1">
+            MikePay <span className="text-gray-300 text-sm">(app)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             A modern crypto portfolio and payment app that enables users to
             track real-time prices
@@ -109,7 +121,9 @@ function Home() {
           </div>
         </div>
         <div className="mt-6">
-          <h2 className="text-white text-xl  mt-1">BrainStorm <span className="text-gray-300 text-sm">(web)</span></h2>
+          <h2 className="text-white text-xl  mt-1">
+            BrainStorm <span className="text-gray-300 text-sm">(web)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             Welcome to BrainStorm , Where Ideas Find Teams
           </p>
@@ -130,7 +144,9 @@ function Home() {
           </div>
         </div>
         <div className="mt-6">
-          <h2 className="text-white text-xl  mt-1">Free Durk <span className="text-gray-300 text-sm">(web)</span></h2>
+          <h2 className="text-white text-xl  mt-1">
+            Free Durk <span className="text-gray-300 text-sm">(web)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             Built this why learning next js
           </p>
@@ -151,7 +167,9 @@ function Home() {
           </div>
         </div>
         <div className="mt-6 mb-6">
-          <h2 className="text-white text-xl mt-1">Netflix Clone <span className="text-gray-300 text-sm">(app)</span></h2>
+          <h2 className="text-white text-xl mt-1">
+            Netflix Clone <span className="text-gray-300 text-sm">(app)</span>
+          </h2>
           <p className="text-base text-gray-400 pt-1">
             Cloned NETFLIX for a school project defense , collaborated with
             classmates
@@ -169,9 +187,11 @@ function Home() {
         {/* footer */}
         <div className=" border-t  border-gray-400">
           <div>
-          <p className="text-base pt-4 text-white">&copy;Michael 2023-2025, All Rights Reserved. </p>
+            <p className="text-base pt-4 text-white">
+              &copy;Michael 2023-2025, All Rights Reserved.{" "}
+            </p>
           </div>
-          <div className="flex space-x-4 pb-6 pt-4">
+          <div className="flex space-x-6 pb-6 pt-4">
             <a
               href="https://x.com/ClassicMike17"
               target="_blank"
@@ -185,6 +205,13 @@ function Home() {
             </a>
             <a href="https://www.instagram.com/mike_bytes?igsh=Mjg3cjBpaXB5NW5o&utm_source=qr">
               <FaInstagram
+                size={24}
+                color="#fff"
+                className="hover:text-red-600 hover:animate-bounce transition-transform duration-300 hover:scale-130"
+              />
+            </a>
+            <a href="mailto:mikeyxofficial1234@gmail.com">
+              <FaEnvelope
                 size={24}
                 color="#fff"
                 className="hover:text-red-600 hover:animate-bounce transition-transform duration-300 hover:scale-130"
