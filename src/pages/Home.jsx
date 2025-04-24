@@ -52,7 +52,7 @@ function Home() {
             Projects
           </h2>
           <p className="text-base text-gray-400 ">
-            Some of my personal projects i have worked on.
+            Some of my personal and collaborated projects i have worked on.
           </p>
         </div>
         {/* project titles */}
@@ -87,7 +87,7 @@ function Home() {
             A movie showing website
           </p>
           <div className="mt-2 flex gap-x-4">
-            <a href="https://movieflix-virid.vercel.app/">
+            <a href="https://movieflix-joel.vercel.app/">
               <FaShareSquare
                 size={22}
                 className="text-white  hover:animate-pulse"
@@ -151,7 +151,7 @@ function Home() {
             Built this why learning next js
           </p>
           <div className="flex gap-x-4 mt-2">
-            <a href="https://brainstorm-v1.vercel.app/">
+            <a href="https://lil-durk-gilt.vercel.app/">
               <FaShareSquare
                 size={22}
                 className="text-white  hover:animate-pulse"
