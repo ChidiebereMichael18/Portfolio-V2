@@ -9,14 +9,10 @@ function Home() {
     <div className="bg-[#05020b] h-full">
       <div className="max-w-screen-md mx-auto px-5  font-montserrat">
         <div className=" flex flex-col gap-y-1 ">
-          <div className="flex justify-between mt-6">
-            <h1 className="text-xl  text-white">MikeBytes</h1>
-            <a href="https://github.com/ChiebereMichael/">
-              <FaGithub
-                size={28}
-                color="fff"
-                className="hover:animate-bounce"
-              />
+          <div className="flex justify-between mt-6 items-center">
+            <h1 className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">MikeBytes</h1>
+            <a href="https://github.com/ChiebereMichael/" className="transition-transform hover:scale-110">
+              <FaGithub size={28} color="fff" />
             </a>
           </div>
           {/* about */}
@@ -49,10 +45,10 @@ function Home() {
         </div>
         <div className="mt-8">
           <h2 className="font-extrabold text-2xl font-serif text-white">
-            Projects
+            Featured Projects
           </h2>
-          <p className="text-base text-gray-400 ">
-            Some of my personal and collaborated projects i have worked on.
+          <p className="text-base text-gray-400 mb-8">
+            A collection of projects that showcase my expertise in modern web technologies and problem-solving abilities.
           </p>
         </div>
         {/* project titles */}
@@ -61,7 +57,10 @@ function Home() {
             Text 2 Speech <span className="text-gray-300 text-sm">(web)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            Converts the text input to an audio output
+            A text-to-speech converter application with support for multiple languages and voice options.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            HTML • CSS • JavaScript
           </p>
           <div className="flex gap-x-4 mt-2">
             <a href="https://chieberemichael.github.io/mike.github.io/">
@@ -84,7 +83,10 @@ function Home() {
             MovieFlix <span className="text-gray-300 text-sm">(web)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            A movie showing website
+            A modern streaming platform interface with real-time movie data, search functionality, and responsive design.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            React.js • TMDB API • Tailwind CSS • Context API
           </p>
           <div className="mt-2 flex gap-x-4">
             <a href="https://movieflix-joel.vercel.app/">
@@ -107,8 +109,10 @@ function Home() {
             MikePay <span className="text-gray-300 text-sm">(app)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            A modern crypto portfolio and payment app that enables users to
-            track real-time prices
+            A sophisticated cryptocurrency portfolio tracker with real-time price updates and secure payment integration.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            React Native • Crypto API • Redux
           </p>
           <div className=" mt-2 ">
             <a href="https://github.com/ChiebereMichael/Mike-Pay">
@@ -125,7 +129,10 @@ function Home() {
             BrainStorm <span className="text-gray-300 text-sm">(web)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            Welcome to BrainStorm , Where Ideas Find Teams
+            An innovative platform connecting creative minds with professional teams, featuring real-time collaboration tools.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            React.js • Tailwind CSS • (In Development)
           </p>
           <div className="flex gap-x-4 mt-2">
             <a href="https://brainstorm-v1.vercel.app/">
@@ -148,7 +155,10 @@ function Home() {
             Free Durk <span className="text-gray-300 text-sm">(web)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            Built this why learning next js
+            A Next.js-powered music artist showcase website.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            Next.js • Tailwind CSS
           </p>
           <div className="flex gap-x-4 mt-2">
             <a href="https://lil-durk-gilt.vercel.app/">
@@ -171,8 +181,10 @@ function Home() {
             Netflix Clone <span className="text-gray-300 text-sm">(app)</span>
           </h2>
           <p className="text-base text-gray-400 pt-1">
-            Cloned NETFLIX for a school project defense , collaborated with
-            classmates
+            A full-featured streaming service clone with user authentication, content recommendation, and responsive design.
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            React Native • Redux
           </p>
           <div className="mt-4">
             <a href="https://github.com/ChiebereMichael/Netflix-Clone">
@@ -186,48 +198,57 @@ function Home() {
         </div>
         {/* footer */}
         <div className=" border-t  border-gray-400">
-          <div>
-            <p className="text-base pt-4 text-white">
-              &copy;Michael 2023-2025, All Rights Reserved.{" "}
-            </p>
-          </div>
-          <div className="flex space-x-6 pb-6 pt-4">
+          <div className="flex space-x-6 pb-8 pt-6">
             <a
               href="https://x.com/ClassicMike17"
               target="_blank"
               rel="noreferrer"
+              className="group transition-all duration-300 ease-in-out"
             >
               <FaXTwitter
                 size={24}
-                color="#fff"
-                className=" hover:animate-spin transition-transform duration-300 hover:scale-130"
+                className="text-white group-hover:text-blue-400 transition-all"
               />
             </a>
-            <a href="https://www.instagram.com/mike_bytes?igsh=Mjg3cjBpaXB5NW5o&utm_source=qr">
+            <a
+              href="https://www.instagram.com/mike_bytes"
+              target="_blank"
+              rel="noreferrer"
+              className="group transition-all duration-300 ease-in-out"
+            >
               <FaInstagram
                 size={24}
-                color="#fff"
-                className="hover:text-red-600 hover:animate-bounce transition-transform duration-300 hover:scale-130"
+                className="text-white group-hover:text-pink-500 transition-all"
               />
             </a>
-            <a href="mailto:mikeyxofficial1234@gmail.com">
+            <a
+              href="mailto:mikeyxofficial1234@gmail.com"
+              className="group transition-all duration-300 ease-in-out"
+            >
               <FaEnvelope
                 size={24}
-                color="#fff"
-                className="hover:text-red-600 hover:animate-bounce transition-transform duration-300 hover:scale-130"
+                className="text-white group-hover:text-red-500 transition-all"
               />
             </a>
             <a
               href="https://github.com/ChiebereMichael"
               target="_blank"
               rel="noreferrer"
+              className="group transition-all duration-300 ease-in-out"
             >
               <FaGithub
                 size={24}
-                color="#fff"
-                className=" hover:animate-bounce transition-transform duration-300 hover:scale-130"
+                className="text-white group-hover:text-gray-400 transition-all"
               />
             </a>
+          </div>
+          <div className="text-sm text-gray-400 pb-4">
+            Built with React & Tailwind CSS
+          </div>
+          <div>
+            <p className="text-base pt-4 text-white">
+              &copy;Michael 2025, All Rights Reserved.{" "}
+            </p>
           </div>
         </div>
       </div>
