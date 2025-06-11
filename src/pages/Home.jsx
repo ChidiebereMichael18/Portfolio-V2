@@ -43,12 +43,39 @@ function Home() {
             </p>
           </div>
         </div>
+
+        {/* Companies Section */}
         <div className="mt-8">
           <h2 className="font-extrabold text-2xl font-serif text-white">
-            Featured Projects
+            Companies I've Worked With
+          </h2>
+          <p className="text-base text-gray-400 mb-6">
+            Organizations where I've contributed and grown professionally.
+          </p>
+          <div className="space-y-4">
+            <div className="border border-gray-800 rounded-lg p-4">
+              <h3 className="text-white text-lg font-semibold">Devsentinel Innovations</h3>
+              <p className="text-gray-400">Lead Frontend Developer • 2025 - Present</p>
+              <p className="text-gray-500 mt-2">
+                Building responsive web applications and implementing modern UI/UX designs.
+              </p>
+            </div>
+            <div className="border border-gray-800 rounded-lg p-4">
+              <h3 className="text-white text-lg font-semibold">Threndin (intern)</h3>
+              <p className="text-gray-400">React Native Developer • 2024 - 2025</p>
+              <p className="text-gray-500 mt-2">
+                Developed cross-platform mobile applications using React Native.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8">
+          <h2 className="font-extrabold text-2xl font-serif text-white">
+            Personal Projects
           </h2>
           <p className="text-base text-gray-400 mb-8">
-            A collection of projects that showcase my expertise in modern web technologies and problem-solving abilities.
+            A collection of side projects I've built to explore new technologies and solve real-world problems.
           </p>
         </div>
         {/* project titles */}
@@ -196,6 +223,37 @@ function Home() {
             </a>
           </div>
         </div>
+        
+        {/* View More Projects Link */}
+        <div className="mt-12 mb-8 text-center">
+          <a 
+            href="https://github.com/ChiebereMichael"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-white hover:text-gray-300 transition-colors"
+          >
+            <span className="text-lg">View More Projects</span>
+            <FaGithub size={24} />
+          </a>
+        </div>
+
+        {/* Freelance Section */}
+        <div className="mt-12 mb-12 border border-gray-800 rounded-lg p-6 bg-opacity-30 bg-gray-900">
+          <h2 className="font-extrabold text-2xl font-serif text-white mb-3">
+            Available for Freelance
+          </h2>
+          <p className="text-gray-400 mb-4">
+            I'm currently accepting new projects and freelance opportunities. If you have a project that needs expert frontend development, let's discuss how I can help bring your vision to life.
+          </p>
+          <a 
+            href="mailto:mikeyxofficial1234@gmail.com"
+            className="inline-flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition-colors"
+          >
+            <FaEnvelope size={18} />
+            <span>Get in Touch</span>
+          </a>
+        </div>
+
         {/* footer */}
         <div className=" border-t  border-gray-400">
           <div className="flex space-x-6 pb-8 pt-6">
@@ -246,7 +304,7 @@ function Home() {
             Built with React & Tailwind CSS
           </div>
           <div>
-            <p className="text-base pt-4 text-white">
+            <p className="text-base py-4 text-white">
               &copy;Michael 2025, All Rights Reserved.{" "}
             </p>
           </div>
