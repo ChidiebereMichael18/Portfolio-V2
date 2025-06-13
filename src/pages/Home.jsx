@@ -105,6 +105,34 @@ function Home() {
             </a>
           </div>
         </div>
+
+            <div className="mt-8">
+          <h2 className="text-white text-xl mt-1">
+            FlameGame<span className="text-gray-300 text-sm">(web)</span>
+          </h2>
+          <p className="text-base text-gray-400 pt-1">
+            Computerized version of kid's matchmaking game made with HTML,CSS and Javascript
+          </p>
+          <p className="text-sm text-gray-500 mt-1">
+            HTML • CSS • JavaScript
+          </p>
+          <div className="flex gap-x-4 mt-2">
+            <a href="https://flames-six-ruby.vercel.app/">
+              <FaShareSquare
+                size={22}
+                className="text-white  hover:animate-pulse"
+              />
+            </a>
+            <a href="https://github.com/ChiebereMichael/Flames">
+              <FaGithub
+                size={22}
+                color="#fff"
+                className="hover:animate-pulse"
+              />
+            </a>
+          </div>
+        </div>
+
         <div className="mt-6">
           <h2 className="text-white text-xl  mt-1">
             MovieFlix <span className="text-gray-300 text-sm">(web)</span>
