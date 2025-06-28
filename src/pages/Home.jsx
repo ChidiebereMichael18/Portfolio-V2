@@ -11,7 +11,7 @@ function Home() {
         <div className=" flex flex-col gap-y-1 ">
           <div className="flex justify-between mt-6 items-center">
             <h1 className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">MikeBytes</h1>
-            <a href="https://github.com/ChiebereMichael/" className="transition-transform hover:scale-110">
+            <a href="https://github.com/ChidiebereMichael18/" className="transition-transform hover:scale-110">
               <FaGithub size={28} color="fff" />
             </a>
           </div>
@@ -90,7 +90,7 @@ function Home() {
             HTML • CSS • JavaScript
           </p>
           <div className="flex gap-x-4 mt-2">
-            <a href="https://chieberemichael.github.io/mike.github.io/">
+            <a href="https://chidieberemichael.github.io/mike.github.io/">
               <FaShareSquare
                 size={22}
                 className="text-white  hover:animate-pulse"
@@ -123,7 +123,7 @@ function Home() {
                 className="text-white  hover:animate-pulse"
               />
             </a>
-            <a href="https://github.com/ChiebereMichael/Flames">
+            <a href="https://github.com/ChidiebereMichael18/Flames">
               <FaGithub
                 size={22}
                 color="#fff"
@@ -170,7 +170,7 @@ function Home() {
             React Native • Crypto API • Redux
           </p>
           <div className=" mt-2 ">
-            <a href="https://github.com/ChiebereMichael/Mike-Pay">
+            <a href="https://github.com/ChidiebereMichael18/Mike-Pay">
               <FaGithub
                 size={22}
                 color="#fff"
@@ -242,7 +242,7 @@ function Home() {
             React Native • Redux
           </p>
           <div className="mt-4">
-            <a href="https://github.com/ChiebereMichael/Netflix-Clone">
+            <a href="https://github.com/ChidiebereMichael18/Netflix-Clone">
               <FaGithub
                 size={22}
                 color="#fff"
@@ -255,7 +255,7 @@ function Home() {
         {/* View More Projects Link */}
         <div className="mt-12 mb-8 text-center">
           <a 
-            href="https://github.com/ChiebereMichael"
+            href="https://github.com/ChidiebereMichael18?tab=repositories"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 text-white hover:text-gray-300 transition-colors"
@@ -286,7 +286,7 @@ function Home() {
         <div className=" border-t  border-gray-400">
           <div className="flex space-x-6 pb-8 pt-6">
             <a
-              href="https://x.com/ClassicMike17"
+              href="https://x.com/IFearAids"
               target="_blank"
               rel="noreferrer"
               className="group transition-all duration-300 ease-in-out"
