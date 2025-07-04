@@ -1,123 +1,109 @@
 import React from "react";
-import { FaShare, FaShareAlt, FaShareSquare } from "react-icons/fa";
-function Projects() {
-  return (
-    <div>
-      <div className="md:mx-20 mx-4 mt-20 font-montserrat">
-        <h2 className="text-white xl:text-left text-4xl sm:text-4xl md:text-6xl font-600">
-          Projects<span className="animate-ping">👨‍🍳</span>
-        </h2>
-        <p className="pt-4 gradientText text-[18px] text-[#FFFFFF99]">
-          some of my fun and real projects I've worked on...brinnnnng mooooore!
-        </p>
-      </div>
-      <div className="md:mx-20 mx-4 mt-15 font-montserrat ">
-        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 font-montserrat grid-cols-2">
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-100  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white text-2xl text-center pb-4">
-              Text2Speech
-            </h1>
-            <h3 className="text-white text-xl pt-4  text-center">
-              HTML+CSS+JS
-            </h3>
-            <p className="text-[#FFFFFF99] text-xl text-center pt-4">
-              Converts the text input to an audio output
-            </p>
-            <h3 className="text-white text-xl pt-4 pb-2">
-              status:<span className="text-textGreen">completed</span>
-            </h3>
-            <a
-              href="https://chieberemichael.github.io/mike.github.io/"
-              target="_blank"
-              className="text-red-600 align-center"
-            >
-              <FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/>
-            </a>
-          </div>
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-50  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white text-2xl text-center pb-4">MovieFlix</h1>
-            <h3 className="text-white text-xl pt-4  text-center">
-              React+ Tailwind + Bootstrap + API{" "}
-            </h3>
-            <p className="text-[#FFFFFF99] text-xl text-center pt-4">
-              A movie showing website
-            </p>
-            <h3 className="text-white text-xl pt-4 pb-2">
-              status:<span className="text-textGreen">completed</span>
-            </h3>
-            <a href="https://movieflix-virid.vercel.app/">
-              <FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/>
-            </a>
-          </div>
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-50  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white text-2xl text-center pb-4">
-              Netflix Clone
-            </h1>
-            <h3 className="text-white text-xl pt-4  text-center">
-              ReactNative + API
-            </h3>
-            <p className="text-[#FFFFFF99] text-xl text-center pt-4">
-              Cloned NETFLIX for a school project defense , collaborated with
-              classmates
-            </p>
-            <h3 className="text-white text-xl pt-4 pb-2">
-              status:<span className="text-textGreen">completed</span>
-            </h3>
-            <a
-              href="https://github.com/ChiebereMichael/Netflix-Clone"
-              target="_blank"><FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/></a>
-          </div>
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-50  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white text-2xl text-center pb-4">MikePay</h1>
-            <h3 className="text-white text-xl pt-4 text-center">
-              ReactNative and API
-            </h3>
-            <p className="text-[#FFFFFF99] text-xl text-center pt-4">
-              {" "}
-              A modern crypto portfolio and payment app that enables users to
-              track real-time prices
-            </p>
-            <h3 className="text-white text-xl pt-4 pb-2">
-              status:<span className="text-amber-500">paused</span>
-            </h3>
-            <a
-              href="https://github.com/ChiebereMichael/Mike-Pay"
-              target="_blank"
-            >
-             <FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/>
-            </a>
-          </div>
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-50  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white text-2xl text-center pb-4">BrainStorm</h1>
-            <h3 className="text-white text-xl pt-4 text-center">
-              React + Tailwind + Firebase
-            </h3>
-            <p className="text-[#FFFFFF99] text-xl text-center pt-4">
-              Welcome to BrainStorm , Where Ideas Find Teams
-            </p>
-            <h3 className="text-white text-xl pt-4 pb-2">
-              status:<span className="text-blue-700">in progress</span>
-            </h3>
-            <a
-              href="https://brainstorm-v1.vercel.app/"
-              className="text-red-600 align-center"
-            >
-              <FaShareSquare size={30}  className="text-white mt-4 hover:animate-pulse"/>
-            </a>
-          </div>
-          <div className="px-12 py-12 w-full rounded-xl bg-[#061417] mb-4 hover:border-b-amber-100 active:border-b-amber-50  border hover:opacity-50 hover:shadow-2xl active:opacity-50 active:shadow-xl shadow-textGreen/50">
-            <h1 className="text-white md:text-2xl text-xl text-center pb-9">
-              I can help you design, improve or build the product experience for
-              your new or existing products. Feel free to get in touch with me.
-            </h1>
-            <h1 className="text-white text-2xl text-center ">
-              Do You Have Any Ideas?
-            </h1>
-          </div>
-        </div>
-      </div>
+import { FaGithub, FaShareSquare } from "react-icons/fa";
+
+// Reusable Project Card Component
+const ProjectCard = ({ title, type, description, tech, github, live }) => (
+  <div className="border border-gray-800 rounded-lg p-4 mb-4">
+    <h4 className="text-white text-lg font-semibold">
+      {title} <span className="text-gray-400 text-sm">({type})</span>
+    </h4>
+    <p className="text-gray-400 pt-1">{description}</p>
+    <p className="text-sm text-gray-500 mt-1">{tech}</p>
+    <div className="flex gap-x-4 mt-2">
+      {live && (
+        <a href={live} target="_blank" rel="noreferrer">
+          <FaShareSquare size={22} className="text-white hover:animate-pulse" />
+        </a>
+      )}
+      {github && (
+        <a href={github} target="_blank" rel="noreferrer">
+          <FaGithub size={22} color="#fff" className="hover:animate-pulse" />
+        </a>
+      )}
     </div>
-  );
-}
+  </div>
+);
+
+const Projects = () => (
+  <div className="mt-12">
+    <h2 className="font-extrabold text-3xl font-serif text-white mb-6">Personal Projects</h2>
+
+    {/* 🧠 Featured Projects */}
+    <div className="mb-10">
+      <h3 className="text-white text-xl mb-3">🧠 Featured Projects</h3>
+      <ProjectCard
+        title="MikePay"
+        type="Mobile App"
+        description="A cryptocurrency portfolio tracker with real-time price updates and secure payment integration."
+        tech="React Native • Crypto API • Redux"
+        github="https://github.com/ChidiebereMichael18/Mike-Pay"
+      />
+      <ProjectCard
+        title="Netflix Clone"
+        type="Mobile App"
+        description="A full-featured Netflix-style clone with auth, content browsing, and responsive design."
+        tech="React Native • Redux"
+        github="https://github.com/ChidiebereMichael18/Netflix-Clone"
+      />
+    </div>
+
+    {/* 📱 Mobile Apps */}
+    <div className="mb-10">
+      <h3 className="text-white text-xl mb-3">📱 Mobile Apps</h3>
+      <ProjectCard
+        title="MikeDaily"
+        type="Full-stack App"
+        description="A full-stack news app built with React Native, Express, and MongoDB. Delivers live news feeds with custom backend."
+        tech="React Native • Express.js • MongoDB"
+        github="https://github.com/ChidiebereMichael18/MikeDaily" 
+      />
+    </div>
+
+    {/* 🤖 Bots & Automation */}
+    <div className="mb-10">
+      <h3 className="text-white text-xl mb-3">🤖 Bots & Automation</h3>
+      <ProjectCard
+        title="HeavenPing"
+        type="Telegram Bot"
+        description="A smart Telegram bot that monitors websites and sends alerts when they go down or become unreachable."
+        tech="Node.js • Telegram API • Uptime Monitoring"
+        github="https://github.com/ChidiebereMichael18/heaven-ping"
+      />
+      <ProjectCard
+        title="CoinNow"
+        type="Telegram Bot"
+        description="Real-time crypto price alerts and updates via Telegram. Includes custom commands and tracking features."
+        tech="Node.js • Crypto API • Telegram Bot"
+        github="https://github.com/ChidiebereMichael18/CoinNow"
+      />
+    </div>
+
+    {/* 🌍 Web Projects */}
+    <div className="mb-10">
+      <h3 className="text-white text-xl mb-3">🌍 Web Projects</h3>
+      <ProjectCard
+        title="MovieFlix"
+        type="Web App"
+        description="A modern streaming platform interface with TMDB integration, search, and responsive design."
+        tech="React.js • Tailwind CSS • Context API"
+        live="https://movieflix-joel.vercel.app/"
+      />
+      <ProjectCard
+        title="BrainStorm"
+        type="Web App (In Development)"
+        description="A collaboration tool for creatives with real-time team features and idea boards."
+        tech="React.js • Tailwind CSS"
+        live="https://brainstorm-v1.vercel.app/"
+      />
+      <ProjectCard
+        title="Free Durk"
+        type="Artist Showcase"
+        description="A Next.js-powered music artist profile website."
+        tech="Next.js • Tailwind CSS"
+        live="https://lil-durk-gilt.vercel.app/"
+      />
+    </div>
+  </div>
+);
 
 export default Projects;
