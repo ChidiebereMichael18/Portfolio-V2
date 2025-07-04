@@ -66,7 +66,7 @@ const Projects = () => (
         title="HeavenPing"
         type="Telegram Bot"
         description="A smart Telegram bot that monitors websites and sends alerts when they go down or become unreachable."
-        tech="Node.js • Telegram API • Uptime Monitoring"
+        tech="Python • Telegram API • Uptime Monitoring"
         github="https://github.com/ChidiebereMichael18/heaven-ping"
       />
       <ProjectCard
