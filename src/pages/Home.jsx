@@ -1,49 +1,94 @@
 import React from "react";
-import {
-  FaEnvelope,
-  FaGithub,
-} from "react-icons/fa";
-import {
-  FaXTwitter,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaXTwitter, FaInstagram } from "react-icons/fa6";
 import Projects from "../components/Projects";
 
 function Home() {
   return (
     <div className="bg-[#05020b] h-full">
       <div className="max-w-screen-md mx-auto px-5 font-montserrat">
+        
         {/* Header */}
         <div className="flex justify-between pt-4 items-center">
-          <h1 className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">MikeBytes</h1>
-          <a href="https://github.com/ChidiebereMichael18/" className="transition-transform hover:scale-110">
+          <h1 className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">
+            MikeBytes
+          </h1>
+          <a
+            href="https://github.com/ChidiebereMichael18/"
+            className="transition-transform hover:scale-110"
+          >
             <FaGithub size={28} color="fff" />
           </a>
         </div>
 
         {/* Intro */}
-        <div className="text-white mt-6 space-y-2">
-          <p>Hello! I'm Chidiebere Michael, a frontend web and mobile developer with over 2 years of experience. I build sleek, efficient, and user-friendly applications.</p>
-          <p>Skilled in design systems, UI engineering, and scalable performance-driven solutions.</p>
-          <p>My stack lives in the TypeScript/JavaScript ecosystem, but I enjoy Python as well.</p>
-          <p className="my-2">I'm passionate about solving problems with code and turning ideas into real-world products. Let's build something amazing together! 🚀</p>
-          <p className="mt-4">Currently working on: <span className="text-blue-600">BrainStorm</span></p>
+        <div className="text-white mt-6 space-y-3">
+          <p>
+            Hello! I'm <span className="font-bold">Chidiebere Michael</span>, a
+            Fullstack Web & Mobile Developer with 2+ years of experience
+            building sleek, efficient, and user-friendly applications.
+          </p>
+          <p>
+            Skilled in <span className="text-blue-400">design systems</span>,{" "}
+            <span className="text-blue-400">backend development</span>,{" "}
+            <span className="text-blue-400">UI engineering</span>, and{" "}
+            <span className="text-blue-400">scalable performance-driven
+            solutions</span>.
+          </p>
+          <p>
+            My primary stack is in the{" "}
+            <span className="text-yellow-400">TypeScript/JavaScript</span>{" "}
+            ecosystem, with additional experience in{" "}
+            <span className="text-green-400">Python</span>.
+          </p>
+          <p className="my-2">
+            I’m passionate about solving problems with code and turning ideas
+            into real-world products. Let’s build something amazing together! 🚀
+          </p>
+          <p className="mt-4">
+            Currently working on:{" "}
+            <span className="text-blue-600 font-semibold">Thrive</span>
+          </p>
         </div>
 
         {/* Companies Section */}
         <div className="mt-10">
-          <h2 className="font-extrabold text-2xl font-serif text-white">Companies I've Worked With</h2>
-          <p className="text-base text-gray-400 mb-6">Organizations where I've contributed and grown professionally.</p>
+          <h2 className="font-extrabold text-2xl font-serif text-white">
+            Companies I've Worked With
+          </h2>
+          <p className="text-base text-gray-400 mb-6">
+            Organizations where I've contributed and grown professionally.
+          </p>
           <div className="space-y-4">
+
+            {/* Thrive */}
+            <div className="border border-gray-800 rounded-lg p-4">
+              <h3 className="text-white text-lg font-semibold">Thrive</h3>
+              <p className="text-gray-400">Fullstack Developer • 2024 - Present</p>
+              <p className="text-gray-500 mt-2">
+                Building Thrive from the ground up — developing both frontend
+                and backend systems to power a seamless task-based earning
+                platform for users and advertisers.
+              </p>
+            </div>
+
+            {/* Devsentinel */}
             <div className="border border-gray-800 rounded-lg p-4">
               <h3 className="text-white text-lg font-semibold">Devsentinel Innovations</h3>
               <p className="text-gray-400">Lead Frontend Developer • 2025 - Present</p>
-              <p className="text-gray-500 mt-2">Building responsive web applications and implementing modern UI/UX designs.</p>
+              <p className="text-gray-500 mt-2">
+                Building responsive web applications and implementing modern
+                UI/UX designs.
+              </p>
             </div>
+
+            {/* Threndin */}
             <div className="border border-gray-800 rounded-lg p-4">
               <h3 className="text-white text-lg font-semibold">Threndin (Intern)</h3>
               <p className="text-gray-400">React Native Developer • 2024 - 2025</p>
-              <p className="text-gray-500 mt-2">Developed cross-platform mobile applications using React Native.</p>
+              <p className="text-gray-500 mt-2">
+                Developed cross-platform mobile applications using React Native.
+              </p>
             </div>
           </div>
         </div>
@@ -70,7 +115,9 @@ function Home() {
             Available for Freelance
           </h2>
           <p className="text-gray-400 mb-4">
-            I'm currently accepting new projects and freelance opportunities. If you have a project that needs expert frontend development, let's discuss how I can help bring your vision to life.
+            I’m currently accepting new projects and freelance opportunities.
+            If you have a project that needs expert development, let’s discuss
+            how I can help bring your vision to life.
           </p>
           <a
             href="mailto:mikeyxofficial1234@gmail.com"
@@ -97,8 +144,12 @@ function Home() {
               <FaGithub size={24} className="text-white hover:text-gray-400" />
             </a>
           </div>
-          <div className="text-sm text-gray-400 pb-4">Built with React & Tailwind CSS</div>
-          <p className="text-base py-4 text-white">&copy;Michael 2025, All Rights Reserved.</p>
+          <div className="text-sm text-gray-400 pb-4">
+            Built with React & Tailwind CSS
+          </div>
+          <p className="text-base py-4 text-white">
+            &copy; Michael 2025, All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>
@@ -106,4 +157,3 @@ function Home() {
 }
 
 export default Home;
-      
