@@ -53,7 +53,7 @@ const Projects = () => (
         title="BrainStorm"
         type="Web App (In Development)"
         description="A collaboration tool for creatives with real-time team features and idea boards."
-        tech="React.js • Tailwind CSS"
+        tech="React.js • Tailwind CSS • Express js • MongoDB (MERN)"
         live="https://brainstorm-v1.vercel.app/"
       />
       <ProjectCard
