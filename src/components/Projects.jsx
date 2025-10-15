@@ -39,7 +39,7 @@ const Projects = () => (
       and more.
     </p> 
 
-    {/* 🌍 Web Projects */}
+    {/* Web Projects */}
     <div className="mb-10">
       <h3 className="text-white text-xl mb-3">🌍 Web Projects</h3>
       <ProjectCard
@@ -57,15 +57,15 @@ const Projects = () => (
         live="https://brainstorm-v1.vercel.app/"
       />
       <ProjectCard
-        title="Free Durk"
-        type="Artist Showcase"
-        description="A Next.js-powered music artist profile website."
+        title="MKcode"
+        type="Code editor"
+        description="A modern based browser IDE."
         tech="Next.js • Tailwind CSS"
-        live="https://lil-durk-gilt.vercel.app/"
+        live="https://mkcode.vercel.app/"
       />
     </div>
 
-    {/* 📱 Mobile Apps */}
+    {/* Mobile Apps */}
     <div className="mb-10">
       <h3 className="text-white text-xl mb-3">📱 Mobile Apps</h3>
       <ProjectCard
@@ -91,7 +91,7 @@ const Projects = () => (
       />
     </div>
 
-    {/* 🤖 Bots & Automation */}
+    {/* Bots & Automation */}
     <div className="mb-10">
       <h3 className="text-white text-xl mb-3">🤖 Bots & Automation</h3>
       <ProjectCard
