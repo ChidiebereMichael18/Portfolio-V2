@@ -25,7 +25,7 @@ function Home() {
         <div className="text-white mt-6 space-y-3">
           <p>
             Hello! I'm <span className="font-bold">Chidiebere Michael</span>, a
-            Fullstack Web & Mobile Developer with 2+ years of experience
+            Fullstack Web & Mobile Developer with 3+ years of experience
             building sleek, efficient, and user-friendly applications.
           </p>
           <p>
