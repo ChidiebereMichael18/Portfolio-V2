@@ -1,155 +1,157 @@
 import React from "react";
-import { FaEnvelope, FaGithub } from "react-icons/fa";
-import { FaXTwitter, FaInstagram } from "react-icons/fa6";
+import { FaEnvelope, FaGithub, FaArrowRight } from "react-icons/fa";
+import { FaXTwitter, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import Projects from "../components/Projects";
 
 function Home() {
   return (
-    <div className="bg-[#05020b] h-full">
-      <div className="max-w-screen-md mx-auto px-5 font-montserrat">
+    <div className="bg-[#0a0a0a] min-h-screen">
+      <div className="max-w-2xl mx-auto px-6 font-inter">
         
         {/* Header */}
-        <div className="flex justify-between pt-4 items-center">
-          <h1 className="text-2xl font-bold text-white hover:text-gray-300 transition-colors">
-            MikeBytes
+        <div className="flex justify-between items-center py-8">
+          <h1 className="text-xl font-medium text-white tracking-tight">
+            mikebytes
           </h1>
-          <a
-            href="https://github.com/ChidiebereMichael18/"
-            className="transition-transform hover:scale-110"
-          >
-            <FaGithub size={28} color="fff" />
-          </a>
+          <nav className="flex items-center gap-6">
+            <a
+              href="https://github.com/ChidiebereMichael18/"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              <FaGithub size={20} />
+            </a>
+            <a
+              href="mailto:mikeyxofficial1234@gmail.com"
+              className="text-sm text-gray-400 hover:text-white transition-colors border border-gray-800 hover:border-gray-600 px-4 py-2 rounded-full"
+            >
+              Contact
+            </a>
+          </nav>
         </div>
 
-        {/* Intro */}
-        <div className="text-white mt-6 space-y-3">
-          <p>
-            Hello! I'm <span className="font-bold">Chidiebere Michael</span>, a
-            Fullstack Web & Mobile Developer with 2+ years of experience
-            building sleek, efficient, and user-friendly applications.
-          </p>
-          <p>
-            Skilled in <span className="text-blue-400">design systems</span>,{" "}
-            <span className="text-blue-400">backend development</span>,{" "}
-            <span className="text-blue-400">UI engineering</span>, and{" "}
-            <span className="text-blue-400">scalable performance-driven
-            solutions</span>.
-          </p>
-          <p>
-            My primary stack is in the{" "}
-            <span className="text-yellow-400">TypeScript/JavaScript</span>{" "}
-            ecosystem, with additional experience in{" "}
-            <span className="text-green-400">Python</span>.
-          </p>
-          <p className="my-2">
-            I’m passionate about solving problems with code and turning ideas
-            into real-world products. Let’s build something amazing together! 🚀
-          </p>
-          <p className="mt-4">
-            Currently working on:{" "}
-            <span className="text-blue-600 font-semibold">Thrive</span>
-          </p>
+        {/* Hero */}
+        <div className="py-16 border-b border-gray-800">
+          <div className="space-y-6">
+            <h1 className="text-4xl font-light text-white leading-tight">
+              Fullstack Developer
+              <br />
+              building digital experiences
+            </h1>
+            <p className="text-lg text-gray-400 leading-relaxed">
+              3+ years crafting efficient, user-focused applications across web and mobile platforms. 
+              Currently focused on scalable solutions and performance-driven development.
+            </p>
+            <div className="flex items-center gap-4 pt-4">
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 text-white hover:text-gray-300 transition-colors group"
+              >
+                <span>View work</span>
+                <FaArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
+              </a>
+              <a
+                href="mailto:mikeyxofficial1234@gmail.com"
+                className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+              >
+                <span>Get in touch</span>
+              </a>
+            </div>
+          </div>
         </div>
 
-        {/* Companies Section */}
-        <div className="mt-10">
-          <h2 className="font-extrabold text-2xl font-serif text-white">
-            Companies I've Worked With
+        {/* Experience */}
+        <div className="py-16 border-b border-gray-800">
+          <h2 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+            Experience
           </h2>
-          <p className="text-base text-gray-400 mb-6">
-            Organizations where I've contributed and grown professionally.
-          </p>
-          <div className="space-y-4">
-
-            {/* Thrive */}
-            <div className="border border-gray-800 rounded-lg p-4">
-              <h3 className="text-white text-lg font-semibold">Thrive</h3>
-              <p className="text-gray-400">Fullstack Developer • 2024 - Present</p>
-              <p className="text-gray-500 mt-2">
-                Building Thrive from the ground up — developing both frontend
-                and backend systems to power a seamless task-based earning
-                platform for users and advertisers.
+          <div className="space-y-8">
+            <div className="group">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-medium">Thrive</h3>
+                <span className="text-gray-500 text-sm">2025</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-2">Fullstack Developer</p>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Building Thrive from the ground up — developing both frontend and backend systems 
+                to power a seamless task-based earning platform for users and advertisers.
               </p>
             </div>
 
-            {/* Devsentinel */}
-            <div className="border border-gray-800 rounded-lg p-4">
-              <h3 className="text-white text-lg font-semibold">Devsentinel Innovations</h3>
-              <p className="text-gray-400">Lead Frontend Developer • 2025 - Present</p>
-              <p className="text-gray-500 mt-2">
-                Building responsive web applications and implementing modern
-                UI/UX designs.
+            <div className="group">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-medium">Devsentinel Innovations</h3>
+                <span className="text-gray-500 text-sm">2025</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-2">Lead Frontend Developer</p>
+              <p className="text-gray-500 text-sm leading-relaxed">
+                Building responsive web applications and implementing modern UI/UX designs.
               </p>
             </div>
 
-            {/* Threndin */}
-            <div className="border border-gray-800 rounded-lg p-4">
-              <h3 className="text-white text-lg font-semibold">Threndin (Intern)</h3>
-              <p className="text-gray-400">React Native Developer • 2024 - 2025</p>
-              <p className="text-gray-500 mt-2">
+            <div className="group">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-white font-medium">Threndin</h3>
+                <span className="text-gray-500 text-sm">2024 - 2025</span>
+              </div>
+              <p className="text-gray-400 text-sm mb-2">React Native Developer</p>
+              <p className="text-gray-500 text-sm leading-relaxed">
                 Developed cross-platform mobile applications using React Native.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Projects Section */}
-        <Projects />
-
-        {/* View More */}
-        <div className="mt-12 mb-8 text-center">
-          <a
-            href="https://github.com/ChidiebereMichael18?tab=repositories"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 text-white hover:text-gray-300 transition-colors"
-          >
-            <span className="text-lg">View More Projects</span>
-            <FaGithub size={24} />
-          </a>
+        {/* Projects */}
+        <div id="projects" className="py-16">
+          <Projects />
         </div>
 
-        {/* Freelance Section */}
-        <div className="mt-12 mb-12 border border-gray-800 rounded-lg p-6 bg-opacity-30 bg-gray-900">
-          <h2 className="font-extrabold text-2xl font-serif text-white mb-3">
-            Available for Freelance
-          </h2>
-          <p className="text-gray-400 mb-4">
-            I’m currently accepting new projects and freelance opportunities.
-            If you have a project that needs expert development, let’s discuss
-            how I can help bring your vision to life.
-          </p>
-          <a
-            href="mailto:mikeyxofficial1234@gmail.com"
-            className="inline-flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-md transition-colors"
-          >
-            <FaEnvelope size={18} />
-            <span>Get in Touch</span>
-          </a>
+        {/* CTA */}
+        <div className="py-16 border-t border-gray-800">
+          <div className="text-center space-y-6">
+            <h2 className="text-2xl font-light text-white">
+              Let's work together
+            </h2>
+            <p className="text-gray-400 max-w-md mx-auto leading-relaxed">
+              I'm currently available for freelance projects and full-time opportunities.
+            </p>
+            <a
+              href="mailto:mikeyxofficial1234@gmail.com"
+              className="inline-flex items-center gap-3 text-white border border-gray-700 hover:border-gray-500 px-6 py-3 rounded-full transition-colors group"
+            >
+              <FaEnvelope size={16} />
+              <span>Start a conversation</span>
+              <FaArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+            </a>
+          </div>
         </div>
 
         {/* Footer */}
-        <div className="border-t border-gray-400">
-          <div className="flex space-x-6 pb-8 pt-6">
-            <a href="https://x.com/IFearAids" target="_blank" rel="noreferrer">
-              <FaXTwitter size={24} className="text-white hover:text-blue-400" />
-            </a>
-            <a href="https://www.instagram.com/mike_bytes" target="_blank" rel="noreferrer">
-              <FaInstagram size={24} className="text-white hover:text-pink-500" />
-            </a>
-            <a href="mailto:mikeyxofficial1234@gmail.com">
-              <FaEnvelope size={24} className="text-white hover:text-red-500" />
-            </a>
-            <a href="https://github.com/ChidiebereMichael18" target="_blank" rel="noreferrer">
-              <FaGithub size={24} className="text-white hover:text-gray-400" />
-            </a>
+        <div className="py-12 border-t border-gray-800">
+          <div className="flex flex-col items-center space-y-6">
+            <div className="flex items-center gap-6">
+              <a href="https://x.com/IFearAids" className="text-gray-400 hover:text-white transition-colors">
+                <FaXTwitter size={18} />
+              </a>
+              <a href="https://www.instagram.com/mike_bytes" className="text-gray-400 hover:text-white transition-colors">
+                <FaInstagram size={18} />
+              </a>
+              <a href="mailto:mikeyxofficial1234@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                <FaEnvelope size={18} />
+              </a>
+              <a href="https://github.com/ChidiebereMichael18" className="text-gray-400 hover:text-white transition-colors">
+                <FaGithub size={18} />
+              </a>
+            </div>
+            <div className="text-center space-y-2">
+              <p className="text-sm text-gray-500">
+                Built with React & Tailwind CSS
+              </p>
+              <p className="text-sm text-gray-600">
+                &copy; 2025 Michael. All rights reserved.
+              </p>
+            </div>
           </div>
-          <div className="text-sm text-gray-400 pb-4">
-            Built with React & Tailwind CSS
-          </div>
-          <p className="text-base py-4 text-white">
-            &copy; Michael 2025, All Rights Reserved.
-          </p>
         </div>
       </div>
     </div>
