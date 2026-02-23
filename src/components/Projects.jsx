@@ -60,49 +60,39 @@ const ProjectCard = ({
 
 const Projects = () => {
   const projects = [
-    {
-      title: "MovieFlix",
-      description: "A modern streaming platform interface with TMDB integration, search, and responsive design.",
-      tech: "React.js • Tailwind CSS • Context API",
-      live: "https://movieflix-joel.vercel.app/",
-      category: "web",
-    },
-    {
-      title: "BrainStorm",
-      description: "A collaboration tool for creatives with real-time team features and idea boards.",
-      tech: "React.js • Tailwind CSS • Express.js • MongoDB",
-      live: "https://brainstorm-v1.vercel.app/",
-      category: "web"
-    },
-    {
-      title: "MikePay",
-      description: "A cryptocurrency portfolio tracker with real-time price updates and secure payment integration.",
-      tech: "React Native • Crypto API • Redux",
-      github: "https://github.com/ChidiebereMichael18/Mike-Pay",
-      category: "mobile",
-    },
-    {
-      title: "Netflix Clone",
-      description: "A full-featured Netflix-style clone with auth, content browsing, and responsive design.",
-      tech: "React Native • Redux",
-      github: "https://github.com/ChidiebereMichael18/Netflix-Clone",
-      category: "mobile"
-    },
-    {
-      title: "HeavenPing",
-      description: "A smart Telegram bot that sends a daily Bible verse or inspirational quote to users every morning.",
-      tech: "Python • Telegram API • Uptime Monitoring",
-      github: "https://github.com/ChidiebereMichael18/heaven-ping",
-      category: "automation"
-    },
-    {
-      title: "CoinNow",
-      description: "Real-time crypto price alerts and updates via Telegram. Includes custom commands and tracking features.",
-      tech: "Node.js • Crypto API • Telegram Bot",
-      github: "https://github.com/ChidiebereMichael18/CoinNow",
-      category: "automation"
-    }
-  ];
+  {
+    title: "Thrive",
+    description:
+      "A full-stack microtask platform connecting users and advertisers with real-time task tracking, campaign management, and secure payout workflows.",
+    tech: "Next.js • Express.js • MongoDB • Tailwind • Flutterwave",
+    live: "https://thrive-sooty.vercel.app/home", 
+    category: "web",
+  },
+  {
+    title: "BrainStorm",
+    description:
+      "Real-time collaboration platform featuring team workspaces, dynamic idea boards, and scalable backend architecture.",
+    tech: "React.js • Express.js • MongoDB • Tailwind",
+    live: "https://brainstorm-v1.vercel.app/",
+    category: "web",
+  },
+  {
+    title: "MikePay",
+    description:
+      "Mobile crypto portfolio tracker with live price updates, asset monitoring, and optimized cross-platform performance.",
+    tech: "React Native • Redux • Crypto API",
+    github: "https://github.com/ChidiebereMichael18/Mike-Pay",
+    category: "mobile",
+  },
+  {
+    title: "MikeDaily",
+    description:
+      "Stay updated with the latest headlines across tech, sports, business, and more.",
+    tech: "React Native • GNews API • Express js • MongoDB",
+    github: "https://github.com/ChidiebereMichael18/MikeDaily",
+    category: "mobile",
+  }
+];
 
   return (
     <div>
@@ -115,7 +105,7 @@ const Projects = () => {
         ))}
       </div>
       
-      <div className="mt-12 pt-8 border-t border-gray-800 text-center">
+      <div className="mt-12 pt-8  text-center">
         <a
           href="https://github.com/ChidiebereMichael18?tab=repositories"
           className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors group"
