@@ -71,9 +71,9 @@ const Projects = () => {
   {
     title: "BrainStorm",
     description:
-      "Real-time collaboration platform featuring team workspaces, dynamic idea boards, and scalable backend architecture.",
-    tech: "React.js • Express.js • MongoDB • Tailwind",
-    live: "https://brainstorm-v1.vercel.app/",
+      "Brainstorm is a scrollable feed where developers, designers, and indie builders post short demos of what they're working on.",
+    tech: "Next.js • Express.js • MongoDB • Tailwind",
+    live: "https://brainstormv2.vercel.app/",
     category: "web",
   },
   {
