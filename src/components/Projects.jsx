@@ -65,7 +65,7 @@ const Projects = () => {
     description:
       "A full-stack microtask platform connecting users and advertisers with real-time task tracking, campaign management, and secure payout workflows.",
     tech: "Next.js • Express.js • MongoDB • Tailwind • Flutterwave",
-    live: "https://thrive-sooty.vercel.app/home", 
+    live: "https://thrive-sooty.vercel.app", 
     category: "web",
   },
   {

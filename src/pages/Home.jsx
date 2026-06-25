@@ -89,11 +89,11 @@ function Home() {
                 </h3>
                 <span className="text-gray-500 text-sm">2025 — Present</span>
               </div>
-              <p className="text-gray-400 text-sm mb-2">Mobile Engineer</p>
+              <p className="text-gray-400 text-sm mb-2">Software Engineer</p>
               <p className="text-gray-500 text-sm leading-relaxed">
-                Built and currently maintaining the AafriRide mobile
+                Built and currently maintaining the AafriRide software
                 application, implementing scalable features and improving
-                performance across Android and iOS platforms using React Native.
+                performance across Android and iOS platforms.
               </p>
             </div>
 
