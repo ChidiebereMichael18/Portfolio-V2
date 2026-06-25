@@ -73,7 +73,7 @@ const Projects = () => {
     description:
       "Brainstorm is a scrollable feed where developers, designers, and indie builders post short demos of what they're working on.",
     tech: "Next.js • Express.js • MongoDB • Tailwind",
-    live: "https://brainstormv2.vercel.app/",
+    live: "https://brainstom.live",
     category: "web",
   },
   {
