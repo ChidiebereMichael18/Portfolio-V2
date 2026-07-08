@@ -77,12 +77,12 @@ const Projects = () => {
     category: "web",
   },
   {
-    title: "MikePay",
+    title: "Verizen",
     description:
-      "Mobile crypto portfolio tracker with live price updates, asset monitoring, and optimized cross-platform performance.",
-    tech: "React Native • Redux • Crypto API",
-    github: "https://github.com/ChidiebereMichael18/Mike-Pay",
-    category: "mobile",
+      " Verizen is an AI agent that handles your WhatsApp customer service. It knows your products, replies instantly, and never misses a message.",
+    tech: "Next.js • Express.js • MongoDB • TypeScript • Generative AI • Tailwind",
+    live: "https://verizen-three.vercel.app",
+    category: "web",
   },
   {
     title: "MikeDaily",
