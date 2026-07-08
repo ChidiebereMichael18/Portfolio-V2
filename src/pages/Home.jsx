@@ -84,7 +84,7 @@ function Home() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    AAFRI Ride
+                    AAFRI Global
                   </a>
                 </h3>
                 <span className="text-gray-500 text-sm">2025 — Present</span>
